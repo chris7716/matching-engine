@@ -1,2 +1,29 @@
-# matching-engine
-This is demo matching engine written in c++
+# Order Matching Engine
+
+## Description
+This C++ program simulates a simple order matching engine for a trading system. It allows the addition of buy and sell orders with specific prices and quantities, and it matches them based on the price conditions. The engine will attempt to match the highest buy orders with the lowest sell orders, executing trades when appropriate.
+
+### Key Features:
+- **Buy Orders**: Orders that seek to purchase at a specific price or better.
+- **Sell Orders**: Orders that seek to sell at a specific price or better.
+- **Order Matching**: The engine automatically matches orders when a new one is added, based on the price conditions.
+- **Order Display**: The system displays all buy and sell orders in the system.
+
+## Instructions
+
+### Prerequisites
+Ensure you have a C++ compiler that supports the C++11 standard or later. Some common compilers include:
+- [GCC](https://gcc.gnu.org/)
+- [Clang](https://clang.llvm.org/)
+- [MSVC](https://developer.microsoft.com/en-us/visualstudio/)
+
+### Steps to Run the Program
+
+1. **Clone or Download the Repository**:
+   ```bash
+   git clone <repository-url>
+   ```
+2. **Navigate to the Project Directory: Go to the directory where the main.cpp file is located.**:
+    ```bash
+   git clone <repository-url>
+   ```
