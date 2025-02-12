@@ -55,7 +55,7 @@ void MatchingEngine::matchOrders() {
             double tradePrice = sellOrder.price;
 
             std::string tradeMessage = "Trade executed: " + std::to_string(tradeQuantity) + 
-                                       " units at " + std::to_string(tradePrice);
+                                       " units at " + std::to_string(tradePrice) + "\n";
 
             sendTradeToClient(buyOrder.clientSocket, tradeMessage);
             sendTradeToClient(sellOrder.clientSocket, tradeMessage);
